@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3E3CFC96CD824DC02786D5C2 /* Pods_kinda_news_lentaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508735030D270F68CEB999B0 /* Pods_kinda_news_lentaTests.framework */; };
+		A5B58EDFAFED9CD03C0F8907 /* Pods_kinda_news_lenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1518E795AB3A2160528A89 /* Pods_kinda_news_lenta.framework */; };
+		CF0FCC10457ADD92413BCC4F /* Pods_kinda_news_lenta_kinda_news_lentaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E29ACD2B9B13B4A26714378 /* Pods_kinda_news_lenta_kinda_news_lentaUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		80EC8DF02CEB9F8100E64AAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065B9E4CE423F9DCF1C789BE /* Pods-kinda-news-lenta-kinda-news-lentaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lenta-kinda-news-lentaUITests.release.xcconfig"; path = "Target Support Files/Pods-kinda-news-lenta-kinda-news-lentaUITests/Pods-kinda-news-lenta-kinda-news-lentaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10298C98B730CC10D8152C86 /* Pods-kinda-news-lenta-kinda-news-lentaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lenta-kinda-news-lentaUITests.debug.xcconfig"; path = "Target Support Files/Pods-kinda-news-lenta-kinda-news-lentaUITests/Pods-kinda-news-lenta-kinda-news-lentaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		508735030D270F68CEB999B0 /* Pods_kinda_news_lentaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinda_news_lentaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEDA744C14B996C1B69F4AB /* Pods-kinda-news-lenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lenta.debug.xcconfig"; path = "Target Support Files/Pods-kinda-news-lenta/Pods-kinda-news-lenta.debug.xcconfig"; sourceTree = "<group>"; };
 		80EC8DD92CEB9F8000E64AAC /* kinda-news-lenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinda-news-lenta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EC8DEF2CEB9F8100E64AAC /* kinda-news-lentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kinda-news-lentaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EC8DF92CEB9F8100E64AAC /* kinda-news-lentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kinda-news-lentaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1518E795AB3A2160528A89 /* Pods_kinda_news_lenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinda_news_lenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E29ACD2B9B13B4A26714378 /* Pods_kinda_news_lenta_kinda_news_lentaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinda_news_lenta_kinda_news_lentaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEBF8F209F506EDFA6AAD59 /* Pods-kinda-news-lentaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lentaTests.debug.xcconfig"; path = "Target Support Files/Pods-kinda-news-lentaTests/Pods-kinda-news-lentaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC1ABBF38825F5381F78768 /* Pods-kinda-news-lenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lenta.release.xcconfig"; path = "Target Support Files/Pods-kinda-news-lenta/Pods-kinda-news-lenta.release.xcconfig"; sourceTree = "<group>"; };
+		E2CB068515AE398E6E9D248B /* Pods-kinda-news-lentaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinda-news-lentaTests.release.xcconfig"; path = "Target Support Files/Pods-kinda-news-lentaTests/Pods-kinda-news-lentaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B58EDFAFED9CD03C0F8907 /* Pods_kinda_news_lenta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3CFC96CD824DC02786D5C2 /* Pods_kinda_news_lentaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0FCC10457ADD92413BCC4F /* Pods_kinda_news_lenta_kinda_news_lentaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C05D7F8FB65D3CC40B3044B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FEDA744C14B996C1B69F4AB /* Pods-kinda-news-lenta.debug.xcconfig */,
+				BCC1ABBF38825F5381F78768 /* Pods-kinda-news-lenta.release.xcconfig */,
+				10298C98B730CC10D8152C86 /* Pods-kinda-news-lenta-kinda-news-lentaUITests.debug.xcconfig */,
+				065B9E4CE423F9DCF1C789BE /* Pods-kinda-news-lenta-kinda-news-lentaUITests.release.xcconfig */,
+				BBEBF8F209F506EDFA6AAD59 /* Pods-kinda-news-lentaTests.debug.xcconfig */,
+				E2CB068515AE398E6E9D248B /* Pods-kinda-news-lentaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		80EC8DD02CEB9F8000E64AAC = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +123,8 @@
 				80EC8DF22CEB9F8100E64AAC /* kinda-news-lentaTests */,
 				80EC8DFC2CEB9F8100E64AAC /* kinda-news-lentaUITests */,
 				80EC8DDA2CEB9F8000E64AAC /* Products */,
+				2C05D7F8FB65D3CC40B3044B /* Pods */,
+				FCD86D6C287BF3E7611C5FF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +138,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FCD86D6C287BF3E7611C5FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C1518E795AB3A2160528A89 /* Pods_kinda_news_lenta.framework */,
+				9E29ACD2B9B13B4A26714378 /* Pods_kinda_news_lenta_kinda_news_lentaUITests.framework */,
+				508735030D270F68CEB999B0 /* Pods_kinda_news_lentaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80EC8E022CEB9F8100E64AAC /* Build configuration list for PBXNativeTarget "kinda-news-lenta" */;
 			buildPhases = (
+				A668C16CAE0612F199F50FA6 /* [CP] Check Pods Manifest.lock */,
 				80EC8DD52CEB9F8000E64AAC /* Sources */,
 				80EC8DD62CEB9F8000E64AAC /* Frameworks */,
 				80EC8DD72CEB9F8000E64AAC /* Resources */,
+				D037889713FBF3EFB35F6ED6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				80EC8DDB2CEB9F8000E64AAC /* kinda-news-lenta */,
 			);
 			name = "kinda-news-lenta";
-			packageProductDependencies = (
-			);
 			productName = "kinda-news-lenta";
 			productReference = 80EC8DD92CEB9F8000E64AAC /* kinda-news-lenta.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80EC8E072CEB9F8100E64AAC /* Build configuration list for PBXNativeTarget "kinda-news-lentaTests" */;
 			buildPhases = (
+				1DA97ADD34BC7825C605E56C /* [CP] Check Pods Manifest.lock */,
 				80EC8DEB2CEB9F8100E64AAC /* Sources */,
 				80EC8DEC2CEB9F8100E64AAC /* Frameworks */,
 				80EC8DED2CEB9F8100E64AAC /* Resources */,
@@ -147,8 +191,6 @@
 				80EC8DF22CEB9F8100E64AAC /* kinda-news-lentaTests */,
 			);
 			name = "kinda-news-lentaTests";
-			packageProductDependencies = (
-			);
 			productName = "kinda-news-lentaTests";
 			productReference = 80EC8DEF2CEB9F8100E64AAC /* kinda-news-lentaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80EC8E0A2CEB9F8100E64AAC /* Build configuration list for PBXNativeTarget "kinda-news-lentaUITests" */;
 			buildPhases = (
+				A1314E6E5C1C6750B765359F /* [CP] Check Pods Manifest.lock */,
 				80EC8DF52CEB9F8100E64AAC /* Sources */,
 				80EC8DF62CEB9F8100E64AAC /* Frameworks */,
 				80EC8DF72CEB9F8100E64AAC /* Resources */,
+				C6762A21225A1DF6BA8173C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				80EC8DFC2CEB9F8100E64AAC /* kinda-news-lentaUITests */,
 			);
 			name = "kinda-news-lentaUITests";
-			packageProductDependencies = (
-			);
 			productName = "kinda-news-lentaUITests";
 			productReference = 80EC8DF92CEB9F8100E64AAC /* kinda-news-lentaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DA97ADD34BC7825C605E56C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinda-news-lentaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1314E6E5C1C6750B765359F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinda-news-lenta-kinda-news-lentaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A668C16CAE0612F199F50FA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinda-news-lenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6762A21225A1DF6BA8173C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta-kinda-news-lentaUITests/Pods-kinda-news-lenta-kinda-news-lentaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta-kinda-news-lentaUITests/Pods-kinda-news-lenta-kinda-news-lentaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta-kinda-news-lentaUITests/Pods-kinda-news-lenta-kinda-news-lentaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D037889713FBF3EFB35F6ED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta/Pods-kinda-news-lenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta/Pods-kinda-news-lenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kinda-news-lenta/Pods-kinda-news-lenta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80EC8DD52CEB9F8000E64AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		80EC8E032CEB9F8100E64AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEDA744C14B996C1B69F4AB /* Pods-kinda-news-lenta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +458,7 @@
 		};
 		80EC8E042CEB9F8100E64AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC1ABBF38825F5381F78768 /* Pods-kinda-news-lenta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -375,7 +522,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -438,7 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -459,6 +606,7 @@
 		};
 		80EC8E082CEB9F8100E64AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEBF8F209F506EDFA6AAD59 /* Pods-kinda-news-lentaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +626,7 @@
 		};
 		80EC8E092CEB9F8100E64AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CB068515AE398E6E9D248B /* Pods-kinda-news-lentaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +646,7 @@
 		};
 		80EC8E0B2CEB9F8100E64AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10298C98B730CC10D8152C86 /* Pods-kinda-news-lenta-kinda-news-lentaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +664,7 @@
 		};
 		80EC8E0C2CEB9F8100E64AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065B9E4CE423F9DCF1C789BE /* Pods-kinda-news-lenta-kinda-news-lentaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

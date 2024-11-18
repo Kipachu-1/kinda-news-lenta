@@ -1,0 +1,6 @@
+framework module Pods_kinda_news_lenta_kinda_news_lentaUITests {
+  umbrella header "Pods-kinda-news-lenta-kinda-news-lentaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
