@@ -1,6 +1,0 @@
-framework module Pods_kinda_news_lenta {
-  umbrella header "Pods-kinda-news-lenta-umbrella.h"
-
-  export *
-  module * { export * }
-}
