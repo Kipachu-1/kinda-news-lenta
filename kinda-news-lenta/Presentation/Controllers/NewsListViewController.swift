@@ -22,6 +22,12 @@ class NewsListViewController: UIViewController {
         viewModel.fetchNews()
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewModel.fetchNews()
+    }
+    
     private func setupUI() {
         view.backgroundColor = .white
         

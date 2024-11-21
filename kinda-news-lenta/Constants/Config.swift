@@ -6,7 +6,7 @@
 //
 
 struct Config {
-    static let NewsAPIKey = "api_key_here"
+    static let NewsAPIKey = "e6d26319f3834e4ea9573362bdc740e9"
 }
 
 
