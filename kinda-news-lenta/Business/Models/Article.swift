@@ -27,7 +27,8 @@ struct Article: Codable {
         description = try? container.decode(String.self, forKey: .description)
         urlToImage = try? container.decode(String.self, forKey: .urlToImage)
         url = try container.decode(String.self, forKey: .url)
-        isLiked = try container.decodeIfPresent(Bool.self, forKey: .isLiked) ?? false    }
+        isLiked = try container.decodeIfPresent(Bool.self, forKey: .isLiked) ?? false
+    }
 }
 
 struct NewsResponse: Codable {
